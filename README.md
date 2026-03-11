@@ -3,6 +3,7 @@ One life One Button Game
 GitHub repository link
 https://github.com/Zeach27/One-Life-One-Button.git
 
+APK will be found in the Release
 
 Project Reflection
 
