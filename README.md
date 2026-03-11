@@ -1,50 +1,45 @@
-# Welcome to your Expo app 👋
+One life One Button Game
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+GitHub repository link
+https://github.com/Zeach27/One-Life-One-Button.git
 
-## Get started
+
+Project Reflection
+
+What was your game idea?
+
+The game is a simple but engaging one-button one life game called Pop Dart. The player’s objective is to pop balloons using a dart. The player can tap anywhere on the screen to launch a dart, but the challenge lies in timing: the balloon moves from left to right of the screen, and the dart can only hit if the balloon reaches a designated attack range in the center. Players must carefully watch the balloon’s movement and tap at the precise moment to succeed.
+
+The gameplay emphasizes timing and precision, making it easy to learn but hard to master. Each balloon score the speed increase, creating natural difficulty progression.
+
+To make the experience more engaging, I included visual and auditory feedback when a balloon is successfully popped, giving the player instant reward and satisfaction. Procedural scaling can increase difficulty over time, introducing faster or multiple balloons, making reflexes and prediction key to achieving high scores. The game is designed for short, fun sessions, perfect for mobile play, while still offering enough challenge to keep players coming back.
+
+
+What was the most difficult part to implement?
+
+The most challenging part was building the core game logic and functions, especially handling the actions of the game. In Pop Dart, the player must tap at the exact moment when the balloon reaches the attack range, so when the dart hit the ballonit should pop and has an effect of pop and the timing of the pop sound. 
+
+Another difficult aspect was synchronizing the music with gameplay. Each pop needed to line up with sound effects and visual effects, so that the player received immediate feedback when a balloon was successfully hit. This required careful coordination between the game state, the animation, and audio triggers.
+
+What would you improve with more time?
+
+With more time, I would focus on enhancing the UI and adding gameplay twists to make Pop Dart more engaging and visually appealing. For the UI, I’d design a polished main menu, intuitive score displays, and animated overlays for combos or streaks, giving players clear feedback and making the game feel more professional.  I would also implement something that will save the data, so that high scores, progress, and other game states are preserved even when the player exits the game. This ensures that players can return later without losing their best score or achievements, increasing engagement.
+
+---
+
+## Run this project
 
 1. Install dependencies
 
-   ```bash
-   npm install
-   ```
+```bash
+npm install
+```
 
 2. Start the app
 
-   ```bash
-   npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
 ```bash
-npm run reset-project
+npx expo start
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+3. Open on device/emulator via Expo instructions.
 
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
